@@ -1,6 +1,6 @@
 function generateEmail(domain) {
   const randomChars = Math.random().toString(36).substring(7);
-  const email = `${domain}${randomChars}@noah.jp.net`;
+  const email = `${domain}${randomChars}@YOUR DOMAIN HERE`;
   return email;
 }
 
